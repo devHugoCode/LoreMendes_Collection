@@ -1,0 +1,181 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-image: url("assets/images/LoreImagemFundo.png");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.banner {
+  min-height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.banner h1 {
+
+    font-size: 50px;
+    color: #440925;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px white;
+}
+.banner p {
+
+ font-size: 20px;
+ color: #440925;
+  margin-bottom: 25px;
+}
+.banner button { 
+   
+    padding: 14px 30px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #c7739b;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s;
+}
+ 
+#course-content {
+   
+    text-align: center;
+    padding: 60px 20px;
+
+}
+
+#course-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#course-content p {
+
+   font-size: 18px;
+   margin-bottom: 30px;
+
+}
+
+.modules-list {
+
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.module { 
+
+    padding: 20px;
+    border: 1px solid #c7739b;
+    border-radius: 10px;
+    background-color: #c7739b;
+    transition: transform 0.3s;
+    color: white;
+    width: 180px;
+}
+
+.module span{ 
+font-weight: bold;
+
+
+}
+
+#transform-world {
+
+    padding: 80px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+#transform-world p:first-child {
+
+   font-size: 24px;
+   font-weight: bold;
+   color: #440925;
+
+}
+
+#transform-world p {
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+#professional-challenges img {
+width: 500px;
+max-width: 100%;
+height: auto;
+border-radius: 12px;
+
+}
+
+#professional-challenges {
+    padding: 60px 20px;
+    text-align: center;
+    
+}
+
+#professional-challenges h2{
+
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #440925;
+}
+
+#professional-challenges p {
+
+   max-width: 700px;
+   margin: 25px auto 0;
+   line-height: 1.6;
+   font-size: 17px;
+   color: #333;
+
+}
+
+footer {
+
+padding: 40px 20px;
+text-align: center;
+background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dio-logo {
+  
+    width: 120px;
+    height: auto;
+
+}
+
+footer p {
+
+font-size: 16px;
+margin-top: 15px;
+color: #440925;
+
+}
+
+.module:hover {
+
+    transform:scale(1.05);
+}
+
+.banner button:hover {
+
+    background-color: #440925;
+
+}
+
+.logo img {
+
+    width: 180px;
+    height: auto;
+}
+
+.banner-content {
+  background-color: rgba(255, 255, 255, 0.65);
+  padding: 25px 40px;
+  border-radius: 15px;
+}
